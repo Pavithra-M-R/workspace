@@ -1,0 +1,207 @@
+[
+ {
+  "charts": [],
+  "content": "[{\"id\":\"O3FSzaJMvC\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Title\",\"col\":12}},{\"id\":\"szlmjvr47n\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"College Details\",\"col\":3}},{\"id\":\"uK3Y86t1Jo\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Details\",\"col\":9}},{\"id\":\"gvTvq7WxfD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Student Details\",\"col\":3}},{\"id\":\"_qXvT5AV0p\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Teachers Details\",\"col\":4}},{\"id\":\"wqwz8zkT9G\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Address\",\"col\":4}},{\"id\":\"pRFsc29o3t\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"College Contact\",\"col\":6}},{\"id\":\"YIR10jWJ0L\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"College Address\",\"col\":6}},{\"id\":\"hkv3ZMRtlh\",\"type\":\"card\",\"data\":{\"card_name\":\"Student Details\",\"col\":4}},{\"id\":\"80SFjBkfv2\",\"type\":\"card\",\"data\":{\"card_name\":\"Teachers Details\",\"col\":4}},{\"id\":\"ihd22JP6l8\",\"type\":\"onboarding\",\"data\":{\"onboarding_name\":\"Human Resource\",\"col\":12}},{\"id\":\"_O7yGKxXHG\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"SD College\",\"col\":12}}]",
+  "custom_blocks": [
+   {
+    "custom_block_name": "Title",
+    "label": "Title",
+    "parent": "Details",
+    "parentfield": "custom_blocks",
+    "parenttype": "Workspace"
+   },
+   {
+    "custom_block_name": "Test Block",
+    "label": "Test Block",
+    "parent": "Details",
+    "parentfield": "custom_blocks",
+    "parenttype": "Workspace"
+   },
+   {
+    "custom_block_name": "Additional Block",
+    "label": "Additional Block",
+    "parent": "Details",
+    "parentfield": "custom_blocks",
+    "parenttype": "Workspace"
+   },
+   {
+    "custom_block_name": "SD College",
+    "label": "SD College",
+    "parent": "Details",
+    "parentfield": "custom_blocks",
+    "parenttype": "Workspace"
+   },
+   {
+    "custom_block_name": "College Details",
+    "label": "College Details",
+    "parent": "Details",
+    "parentfield": "custom_blocks",
+    "parenttype": "Workspace"
+   },
+   {
+    "custom_block_name": "Details",
+    "label": "Details",
+    "parent": "Details",
+    "parentfield": "custom_blocks",
+    "parenttype": "Workspace"
+   }
+  ],
+  "custom_description": null,
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "for_user": "",
+  "hide_custom": 0,
+  "icon": "share-people",
+  "indicator_color": "pink",
+  "is_hidden": 0,
+  "label": "Details",
+  "links": [
+   {
+    "dependencies": null,
+    "description": "It contains student details",
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Student Details",
+    "link_count": 1,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "parent": "Details",
+    "parentfield": "links",
+    "parenttype": "Workspace",
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Student Details",
+    "link_count": 0,
+    "link_to": "Student Details",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "parent": "Details",
+    "parentfield": "links",
+    "parenttype": "Workspace",
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": "It contains teachers details",
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Teachers Details",
+    "link_count": 1,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "parent": "Details",
+    "parentfield": "links",
+    "parenttype": "Workspace",
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Teacher Details",
+    "link_count": 0,
+    "link_to": "Teacher",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "parent": "Details",
+    "parentfield": "links",
+    "parenttype": "Workspace",
+    "type": "Link"
+   }
+  ],
+  "modified": "2024-08-17 16:49:22.782429",
+  "module": "test new",
+  "name": "Details",
+  "number_cards": [],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [
+   {
+    "document_type": "Address",
+    "label": "College Address",
+    "parent": "Details",
+    "parentfield": "quick_lists",
+    "parenttype": "Workspace",
+    "quick_list_filter": "[]"
+   },
+   {
+    "document_type": "Contact",
+    "label": "College Contact",
+    "parent": "Details",
+    "parentfield": "quick_lists",
+    "parenttype": "Workspace",
+    "quick_list_filter": "[]"
+   }
+  ],
+  "restrict_to_domain": null,
+  "roles": [],
+  "sequence_id": 32.0,
+  "shortcuts": [
+   {
+    "color": "Orange",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Teachers Details",
+    "link_to": "Teacher",
+    "parent": "Details",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": "Green",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Student Details",
+    "link_to": "Student Details",
+    "parent": "Details",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": "Pink",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Address",
+    "link_to": "Address",
+    "parent": "Details",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   }
+  ],
+  "title": "Details"
+ }
+]

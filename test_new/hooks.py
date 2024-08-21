@@ -6,6 +6,21 @@ app_email = "pavithramr88@gmail.com"
 app_license = "mit"
 
 app_include_css = "/assets/test_new/css/c_style.css"
+
+#fixtures = [
+#    # Export the custom Details workspace
+#    {"dt": "Workspace", "filters": [["title", "=", "Details"]]}
+#]
+
+#fixtures = [
+#    "fixtures/workspace.json"
+#]
+#app_include_js = "/assets/test_new/js/workspace_details.js"
+
+fixtures = [
+    {"dt": "Workspace", "filters": [["name", "=", "Details"]]}
+]
+
 # required_apps = []
 
 # Includes in <head>

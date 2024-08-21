@@ -1,8 +1,15 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Details-child\"}}]",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Details-child\"}},{\"id\":\"_O7yGKxXHG\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"SD College\",\"col\":12}}]",
  "creation": "2024-08-13 11:03:14.904285",
- "custom_blocks": [],
+ "custom_blocks": [  
+   {
+    "custom_block_name": "SD College",
+    "label": "SD College",
+    "parent": "Details-child",
+    "parentfield": "custom_blocks",
+    "parenttype": "Workspace"
+  }],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
